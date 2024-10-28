@@ -89,7 +89,7 @@ function draw() {
     beatInterval = (60.0 / (bpm + adjustment)) * 1000;
     interval = beatInterval * beatsPerMeasure;
     previousError = error;
-    console.log(adjustment);
+    //console.log(adjustment);
   }
 
     // 残り時間を計算
@@ -166,7 +166,7 @@ function start() {
   lastTime = millis();
   lastBeatTime = lastTime;
 
-  fps=int(60/(1000/defaultbeatInterval))*(1000/defaultbeatInterval);
+  //fps=int(60/(1000/defaultbeatInterval))*(1000/defaultbeatInterval);
   
   frameRate(fps); // フレームレートを60に固定
   console.log(beatInterval);
