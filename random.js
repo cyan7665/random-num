@@ -61,7 +61,7 @@ function draw() {
   textSize(32);
   text("  Next  " + nextNumber, width * 5 / 8, height * 4 / 7);
   bpm_now = 60000 / intervalTime;
-  text(int(bpm_now), width * 7 / 8, height * 6 / 7);
+  text(Math.round(bpm_now), width * 7 / 8, height * 6 / 7);
   //小さく表示
   textSize(64);
   text(currentNumber, width / 2, height / 2);
